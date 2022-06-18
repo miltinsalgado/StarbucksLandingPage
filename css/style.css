@@ -192,7 +192,6 @@ section.about .container .products ul{
 
 section.about .container .products ul li{
     display: inline-block;
-    vertical-align: middle;
     margin: auto 10px;
 }
 
