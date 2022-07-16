@@ -1,25 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Lato;
 }
 
-html, body{
+html, body {
     height: 100%;
     overflow: hidden;
 }
 
 /* fonts */
 
-@font-face{
+@font-face {
     font-family: "Lato";
     src: url("../fonts/Lato/Lato-Regular.ttf");
     font-weight: 100; /** normal **/
     font-style: normal;
 }
 
-@font-face{
+@font-face {
     font-family: "Lato";
     src: url("../fonts/Lato/Lato-Bold.ttf");
     font-weight: 700; /** bold **/
@@ -30,12 +30,12 @@ html, body{
 
 /* general divs */
 
-.container{
+.container {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
@@ -43,11 +43,11 @@ html, body{
 
 /* header */
 
-header{
+header {
     padding: 20px 10%;
 }
 
-header .container .logo{
+header .container .logo {
     float: left;
     width: 110px;
     height: 110px;
@@ -58,20 +58,20 @@ header .container .logo{
     background-repeat: no-repeat;
 }
 
-header .container .desktop-menu{
+header .container .desktop-menu {
     float: right;
 }
 
-header .container .desktop-menu ul{
+header .container .desktop-menu ul {
     list-style-type: none;
 }
 
-header .container .desktop-menu ul li{
+header .container .desktop-menu ul li {
     float: left;
     margin: 40px 15px;
 }
 
-header .container .desktop-menu ul li a{
+header .container .desktop-menu ul li a {
     text-decoration: none;
     color: #5C6170;
     font-weight: bold;
@@ -81,30 +81,30 @@ header .container .desktop-menu ul li a{
 
 /* section.about */
 
-section.about{
+section.about {
     padding: 40px 10%;
 }
 
-section.about .container{
+section.about .container {
     position: relative;
 }
 
-section.about .container .text{
+section.about .container .text {
     float: left;
 }
 
-section.about .container .text .title-text h2{
+section.about .container .text .title-text h2 {
     font-size: 60px;
     line-height: 80px;
     max-width: 500px;
 }
 
-section.about .container .text .title-text h2 span{
+section.about .container .text .title-text h2 span {
     font-size: 70px;
     color: #017143;
 }
 
-section.about .container .text .description-text p{
+section.about .container .text .description-text p {
     margin-top: 15px;
     font-size: 15px;
     font-weight: bold;
@@ -113,7 +113,7 @@ section.about .container .text .description-text p{
     max-width: 500px;
 }
 
-section.about .container .text .button button{
+section.about .container .text .button button {
     cursor: pointer;
     width: 120px;
     height: 50px;
@@ -125,7 +125,7 @@ section.about .container .text .button button{
     margin-top: 15px;
 }
 
-section.about .container .coffee{
+section.about .container .coffee {
     float: left;
     background-color: #017143;
     width: 100%;
@@ -135,7 +135,7 @@ section.about .container .coffee{
     position: relative;
 }
 
-section.about .container .coffee .coffee-img{
+section.about .container .coffee .coffee-img {
     width: 350px;
     height: 508px;
     margin: 0 auto;
@@ -148,54 +148,54 @@ section.about .container .coffee .coffee-img{
     transform: translate(12.5%, -10%);
 }
 
-section.about .container .social-media-bar{
+section.about .container .social-media-bar {
     float: left;
     position: absolute;
     right: -10%;
     transform: translate(35%, 110%);
 }
 
-section.about .container .social-media-bar h3{
+section.about .container .social-media-bar h3 {
     display: none;
 }
 
-section.about .container .social-media-bar ul{
+section.about .container .social-media-bar ul {
     list-style-type: none;
     list-style-position: inside;
     padding: 5px;
 }
 
-section.about .container .social-media-bar ul li{
+section.about .container .social-media-bar ul li {
     margin: 15px auto;
     text-align: center;
 }
 
-section.about .container .social-media-bar ul li a img{
+section.about .container .social-media-bar ul li a img {
     width: 36px;
     height: 36px;
     transition: width 1s, height 1s;
 }
 
-section.about .container .social-media-bar ul li a img:hover{
+section.about .container .social-media-bar ul li a img:hover {
     width: 48px;
     height: 48px;
 }
 
-section.about .container .products{
+section.about .container .products {
     display: none;
 }
 
-section.about .container .products ul{
+section.about .container .products ul {
     list-style-type: none;
     list-style-position: inside;
 }
 
-section.about .container .products ul li{
+section.about .container .products ul li {
     display: inline-block;
     margin: auto 10px;
 }
 
-section.about .container .products ul li img{
+section.about .container .products ul li img {
     width: 50px;
     height: 72px;
 }
